@@ -476,9 +476,24 @@ ul li {
   height: 150px;
   width: 150px;
   margin: 25px auto;
+
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
+
+.border-partner{
+  border-right:1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.no-right{
+  border-right: 0px;
+}
+
+.no-bottom{
+  border-bottom: 0px;
+}
+
 .partner .partner-box:hover {
   opacity: 1;
 }
@@ -486,13 +501,13 @@ ul li {
   background: url(../images/partner/paschimanchal.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/icess.jpg) no-repeat center center/contain;
+  background: url(../images/partner/icess.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
   background: url(../images/partner/cot.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../images/partner/roboticsclub.jpg) no-repeat center center/contain;
+  background: url(../images/partner/roboticsclub.png) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
   background: url(../images/partner/cess.png) no-repeat center center/contain;
@@ -504,7 +519,7 @@ ul li {
   /* background: url(../images/partner/partner-7.png) no-repeat center center/contain; */
 }
 .partner .partner-box-8 {
-  background: url(../images/partner/gesan.jpg) no-repeat center center/contain;
+  background: url(../images/partner/gesan.png) no-repeat center center/contain;
 }
 
 /* 
