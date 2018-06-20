@@ -1,0 +1,53 @@
+<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+  <div class="container">
+      <div class="navbar-header">
+
+          <!-- logo -->
+          <div class="site-branding">
+              <a class="logo" href="index.html">
+                  
+                  <!-- logo image  -->
+                  {% comment %} <img src="assets/images/logo.png" alt="Logo" class="logo-image"> {% endcomment %}
+{{ site.title }}
+              </a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+
+      </div><!-- /.navbar-header -->
+
+      <div class="collapse navbar-collapse" id="navbar-items">
+          <ul class="nav navbar-nav navbar-right">
+
+              <!-- navigation menu -->
+              <li class="active"><a data-scroll href="#about">About</a></li>
+              <li><a data-scroll href="#schedule">Minor Events</a></li> 
+              <li><a data-scroll href="#photos">Pre-events</a></li>
+              <li><a data-scroll href="#speakers">Team</a></li>              
+              <li><a data-scroll href="#partner">Supported By</a></li>                  
+              <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+              <li><a data-scroll href="#faq">FAQ</a></li>
+          
+          </ul>
+      </div>
+  </div><!-- /.container -->
+</nav>
+
+<header id="site-header" class="site-header valign-center"> 
+  <div class="intro">
+
+      <h2>{{ site.date }}</h2>
+      
+      <h1>{{ site.title }}</h1>
+      
+      <p>FSU TECHNICAL FESTIVAL 2075</p>
+      
+      <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
+  
+  </div>
+</header>
