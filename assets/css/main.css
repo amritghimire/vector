@@ -312,6 +312,7 @@ ul li {
 }
 
 .site-branding .logo .logo-image{
+  margin-top: -20px;
   height: 100px;
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
@@ -327,6 +328,11 @@ ul li {
   text-decoration: none;
   color: wheat;
 }
+
+.top-mid{
+  max-width: 50%;
+  margin-left: 25%;
+}
 /* 
  * 5.0 Site Header
  */
@@ -336,7 +342,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/Vector-BG.png) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
