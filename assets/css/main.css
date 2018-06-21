@@ -333,7 +333,12 @@ ul li {
   max-width: 50%;
   margin-left: 25%;
 }
-
+@media (max-width: 768px) {
+  .top-mid{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
 /* 
  * 5.0 Site Header
  */
