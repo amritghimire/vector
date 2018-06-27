@@ -19,6 +19,70 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.gradient{
+  background: #C758A1; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, #C758A1, #595DA9);
+}
+
+
+#event-themes{
+	padding: 60px 0;
+}
+#event-themes .section-title{
+	text-align:center;
+	color:#00000;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#event-themes{
+	background:#ffffff;
+}
+#event-themes .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	background: linear-gradient(to right, #C758A1, #595DA9);
+	color: #ffffff;
+	cursor: pointer;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#event-themes .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#event-themes .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#event-themes .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#event-themes .card .card-block a i{
+	display:none;
+	
+}
+#event-themes .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#event-themes .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+
+
+
 a {
   color: #000;
 }
@@ -288,8 +352,10 @@ font-weight: 700;
 }
 
 .navbar-solid {
-  background-color: #000 !important;
-  padding: 0 !important;
+  background: linear-gradient(to right, #C758A1, #595DA9)  !important;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 20px !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -329,7 +395,7 @@ font-weight: 700;
 
 .top-mid{
   max-width: 50%;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 @media (max-width: 768px) {
   .top-mid{
@@ -346,7 +412,7 @@ font-weight: 700;
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/Vector-BG.png) no-repeat center center/cover;
+  background: #C758A1 url(../images/backgrounds/Vector-BG.png) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -355,7 +421,7 @@ font-weight: 700;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: -10px;
 }
 .site-header .intro {
   color: #fff;
@@ -522,7 +588,7 @@ font-weight: 700;
   background: url(../images/partner/cess.png) no-repeat center center/contain;
 }
 .partner .partner-box-6 {
-  /* background: url(../images/partner/partner-6.png) no-repeat center center/contain; */
+  background: url(../images/partner/simes.png) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
   /* background: url(../images/partner/partner-7.png) no-repeat center center/contain; */
