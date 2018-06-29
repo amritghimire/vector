@@ -1,30 +1,51 @@
----
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Vector - A technical Festival
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: mail@amritghimire.com
-description: VECTOR – Direct your Vision is a national level technical festival of
-  Paschimanchal Campus organized by Free Students Union, Paschimanchal Campus in association
-  with different active Technical Clubs from Paschimanchal Campus. In this festival,
-  different Project exhibition, Project Competition, Code Camp, Code with Coffee  and
-  Mapathon are held along with real time competitions such as Coding Contest and Circuit
-  designing. This festival provides practical knowledge and competitive spirits to
-  the students of technical field. This festival aims to develop potential of students
-  and also improve the technical sectors all over Nepal. This festival inspires and
-  helps to direct the solutions and ideas developed to be implemented in real life.
-baseurl: ''
-url: ''
+description: >- # this means to ignore newlines until "baseurl:"
+  VECTOR – Direct your Vision is a national level technical festival of Paschimanchal
+  Campus organized by Free Students Union, Paschimanchal Campus in association with
+  different active Technical Clubs from Paschimanchal Campus. In this festival, different
+  Project exhibition, Project Competition, Code Camp, Code with Coffee  and Mapathon are held along with real
+  time competitions such as Coding Contest and Circuit designing. This festival provides
+  practical knowledge and competitive spirits to the students of technical field. This festival
+  aims to develop potential of students and also improve the technical sectors all over Nepal.
+  This festival inspires and helps to direct the solutions and ideas developed to be
+  implemented in real life.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vectorfsu2018
-github_username: jekyll
+github_username:  jekyll
 facebook_username: vectorfsu2018
 date: 3 rd ,4 th & 5 th Shrawan, 2075
+
+# Build settings
 markdown: kramdown
 theme: minima
 plugins:
-- jekyll-feed
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
