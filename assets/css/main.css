@@ -336,7 +336,7 @@ ul li {
 }
 
 .bg-image-2 {
-  background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
+  background: #C758A1 url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
 }
 .bg-image-2::before {
 }
