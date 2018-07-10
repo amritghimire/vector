@@ -7,7 +7,7 @@
               <a class="logo" href="index.html">
                   
                   <!-- logo image  -->
-                  <img src="assets/images/vector-logo-png.png" alt="Logo" class="logo-image hidden-xs">
+                  <img src="assets/images/Vector-logo-small.png" alt="Logo" class="logo-image hidden-xs">
                  <span class="visible-xs-block"><h2 class="margin-0">Vector</h2><small class="hidden-xs">A technical Festival</small></span>
               </a>
           </div>
@@ -41,10 +41,10 @@
 
 <header id="site-header" class="site-header valign-center"> 
   <div class="intro">
-      <span class=" hidden-xs">
+      {% comment %} <span class=" hidden-xs">
         <img src="assets/images/Vector-Main.png" class="img-responsive top-mid"  >
-      </span>
-      <span class="visible-xs-block">
+      </span> {% endcomment %}
+      <span class="">
 
       <h2>{{ site.date }}</h2>
       
@@ -55,7 +55,7 @@
       <a class="btn btn-default btn-rounded-lg" data-scroll href="#registration">Register Now</a>
       </span>
 
-        <div class="countdown">
+        <div class="countdown hidden">
        <!-- <h1>Countdown Clock</h1> -->
            <div id="clockdiv">
             <div>
