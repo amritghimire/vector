@@ -343,7 +343,7 @@ ul li {
 
 @media (max-width: 768px){
   .navbar-custom {
-    background-color:#fff !important;
+    /* background-color:#fff !important; */
     border: 0;
     margin: 0;
     padding-top: 0px;
